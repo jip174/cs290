@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Games</title>
+    <link rel="stylesheet" type ="text/css" href="style.css">
+  </head>
+  <body class="games">
+        <div class="Title">
+                <h1 class ="games">Games We Played on PlayStation</h1>
+        </div>
+    <div class ="gameList">
+          <ul>
+            <li class ="listGames">Socom 1+2+3 </li>
+            <li class ="listGames">Call of Duty Blackout</li>
+            <li class ="listGames">Ghost Recon Wildlands</li>
+            <li class ="listGames">Tom Clancy Siege</li>
+            <li class ="listGames">Players Unknown BattleGround</li>
+            <li class ="listGames">Apex Legends</li>
+            <li class ="listGames">Destiny 1+2</li>
+            <li class ="listGames">The Division 1+2</li>
+            <li class ="listGames">BattleField</li>
+            <li class ="listGames">Final Fantasy</li>
+            <li class ="listGames">Star Wars Battlefront</li>
+            <li class ="listGames">World of Warcraft</li>
+            <li class ="listGames">many others</li>
+           </ul>
+     </div>
+    <div class= "forms"> 
+     <form id="favForm">
+      <fieldset>
+          <legend> Survey of favorite games</legend>
+          <label for="name">Name</label>
+          <input type ="text" name="name" id="name">
+          <label for="favGame">Favorite Game</label>
+          <input type ="text" name="favGame" id="favGame">
+          <label for="favType">Favorite type</label>
+          <input type ="text" name="favType" id="favType">
+          <input type="submit" id="entrySubmit">
+      </fieldset>
+  </form>
+  <div class ="formResults">
+    <h2>Results</h2>
+    <ul>
+      
+        <li>Name: <span id="oneResponse"></span></li>
+        <li>Favorite Game: <span id="twoResponse"></span></li>
+        <li>Favorite Type: <span id="thirdResponse"></span></li>
+        
+    </ul>
+  </div>
+
+
+<form action=http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php method="post">
+  <fieldset>
+      <legend>Your Details:</legend>
+      <label>
+          Name:
+          <input type="text" name="text_input" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>
+          Email:
+          <input type="email" name="email_input" size="30" maxlength="100">
+      </label>
+      <br />
+     
+  </fieldset>
+  <br />
+  <fieldset>
+      <legend>Favorite Battleground:</legend>
+      
+      <p>  Pick one!!
+          <br />
+          <label>
+              <input type="radio" name="rating" value="Pubg" />PUBG
+          </label>
+          <label>
+              <input type="radio" name="rating" value="Fortnite" />Fornite
+          </label>
+          <label>
+              <input type="radio" name="rating" value="Blackout" />Blackout
+          </label>
+          <label>
+            <input type="radio" name="rating" value="Apex" />Apex
+        </label>
+        <label>
+            <input type="radio" name="rating" value="Realm Royale" />Realm Royale
+        </label>
+        
+      </p>
+
+      <br />
+      <input type="submit" value="Submit" />
+  </fieldset>
+</div>
+</form>
+<div class="download">  
+<h2 > DOWNLOAD
+    <p>Clan Banner created by Kwikhatch</p>
+    <a href="east2.jpg" download> east2</a>
+</h2>
+</div>
+    <script src="script.js">
+
+        </script>
+  </body>
+  <footer class="footer1">
+      <a href = "project.html" class ="home">Return to Home Page</a>
+    <p></p> 
+  </footer>
+</html>

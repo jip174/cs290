@@ -1,0 +1,143 @@
+   
+  /*changes the background in the clan page*/
+  body.clan{ 
+       background-color: black;
+   }
+    /*changes the background in the games page*/
+   body.games{
+    background-color:rgba(36, 20, 6, 0.877);
+    }
+     /*changes the font in the clan page*/
+   h1.v{
+    font-family:cursive;
+    color: white;
+     font-size: 50px;
+     margin: auto;
+     text-align:center;
+     text-shadow: 3px 2px black; 
+   }
+   /*changes the font in the main page*/
+   h1.Name{
+       font-family:cursive;
+       color: white;
+        font-size: 50px;
+        margin: auto;
+        text-align:center;
+        text-shadow: 3px 2px black;
+    }
+    p.clan{
+        font-family: cursive;
+        color: white;
+        
+        font-size: 50px;
+        text-shadow: 5px 3px black;
+        margin: auto;
+        text-align:center;
+        background-size:auto;
+    }
+    /*changes the menus on the main page*/
+    div.menuBar{
+        font-family: fantasy;
+        font-size: 50px;
+        background-color:black; 
+         margin: left;
+        text-align:center;
+    }
+    /*changes the menus in VAxel page*/
+    div.Links{
+        font-family: fantasy;
+        font-size: 30px;
+        background-color: whitesmoke; 
+         margin: left;
+        text-align:center;
+    }
+    /*changes the names in the clan page*/
+    div.List{
+        font-family: fantasy;
+        font-size: 30px;
+        margin: left;
+        text-align:center;
+    }
+    video.Video1{
+        float:left;
+       
+    }
+    video.Video2{
+        float:right;
+    }
+    /*changes the font in the scroll bar in the clan page*/
+    div.scrollText{
+        color:purple;
+    }
+    /*changes the font in the main pages history paragraph*/
+    div.history{
+        color:white;
+        font-family: fantasy;
+        font-size: 30px;
+        text-align:center;
+        background-color: black;
+    }
+    /*changes the font in the games page*/
+    div.gameList{
+        color:rgb(255, 136, 0);
+        font-family: cursive;
+        font-size: 30px;
+        text-align:center;
+        
+    }
+    /*changes the font of the Title on games page*/
+    div.Title{
+        color:rgb(255, 136, 0);
+        font-family: cursive;
+        font-size: 40px;
+        text-align:center;
+    }
+    /*changes the font of the forms on the games page*/
+    div.forms{
+        color:rgb(255, 136, 0);
+        font-family: cursive;
+        font-size: 16px;
+        text-align:center;
+    }
+    /*changes the font of the download on the games page*/
+    div.download{
+        color:rgb(255, 136, 0);
+        font-family: cursive;
+        font-size: 16px;
+    }
+    /*changes the border of the main page menu*/
+    div.menuBar{
+        border: 3px solid;
+        border-radius: 2px;
+        border-color: antiquewhite;
+        top:0;
+     }
+     /*changes the layout of the list on the main page*/
+    li.a{
+        display: inline;
+    }
+    /*changes the color of the background when hover over links*/
+    li a:hover{
+        background-color: dimgrey;
+    }
+
+  footer.footer{
+      text-align: center;
+      position: absolute;
+      top: 0;
+  }
+  /*changes the return home link attributes*/
+  footer.footer1{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color:white;
+}
+
+  image.HOF{
+      float: left;
+      
+  }
+  image.HOF2{
+    float: right;
+}
